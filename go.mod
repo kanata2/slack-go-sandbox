@@ -1,6 +1,6 @@
-module github.com/kanata2/slack-go-tester-bot
+module github.com/kanata2/slack-go-sandbox
 
-go 1.15
+go 1.16
 
 require (
 	github.com/pkg/errors v0.9.1 // indirect
