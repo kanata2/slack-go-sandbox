@@ -4,7 +4,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/kanata2/slack-go-tester-bot/issue903"
+	"github.com/kanata2/slack-go-sandbox/pull888"
 	"github.com/slack-go/slack"
 )
 
@@ -17,7 +17,7 @@ func init() {
 }
 
 func main() {
-	if err := issue903.Main(c); err != nil {
+	if err := pull888.Main(c); err != nil {
 		log.Fatal(err)
 	}
 }
